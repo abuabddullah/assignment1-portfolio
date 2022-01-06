@@ -149,3 +149,23 @@ section{
     width: 100%;
 }
 .limitDscrpt a{}
+
+/* globalCommunity Start */
+
+.globalCommunityWraper{
+    justify-content: space-between;
+    align-items: center;
+}
+.globalCommunityImg{
+    width: 35%;
+}
+.globalCommunityDscrpt{
+    width: 58%;
+}
+.globalCommunityDscrpt h1{
+    text-align: left;
+    font-size: 35px;
+}
+.globalCommunityDscrpt p{
+    width: 100%;
+}
