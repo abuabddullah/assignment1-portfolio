@@ -204,8 +204,8 @@ section{
     margin-right: 20px;
 
 }
-.appImg img{
-
+.appImg img {
+    height: 400px;
 }
 .appLink{
     margin-left: 20px;
