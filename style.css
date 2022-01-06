@@ -1,6 +1,7 @@
-/* font-family: 'Pacifico', cursive;
+/* font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
 font-family: 'Poppins', sans-serif;
-font-family: 'Source Serif 4', sans-serif; */
+font-family: 'Yeseva One', cursive; */
 
 *{
     margin: 0;
@@ -15,7 +16,7 @@ a{
     text-decoration: none;
 }
 section{
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .container{
@@ -53,7 +54,7 @@ section{
     padding-left: 10px;
 }
 .headline h1{
-    font-family: 'Source Serif 4', sans-serif !important;
+    font-family: 'Yeseva One', sans-serif !important;
     font-size: 60px !important;
     text-align: left !important;
 }
@@ -168,4 +169,71 @@ section{
 }
 .globalCommunityDscrpt p{
     width: 100%;
+}
+
+/* focus tracker */
+
+.focusTracker{
+    padding: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+}
+.focusContainer{
+}
+.focusContainer h3{
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.focusContainer h1{
+    color: #fff;
+}
+.appBanner{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.appImg{
+    margin-right: 20px;
+
+}
+.appImg img{
+
+}
+.appLink{
+    margin-left: 20px;
+
+}
+.appLink a{
+    margin: 10px;
+}
+
+.appLink a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* footer start */
+footer{
+    background: orange;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    line-height: 60px;
+    
+}
+footer h1 span{
+    color: rgb(255, 75, 75);
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
 }
