@@ -53,8 +53,9 @@ section{
     padding-left: 10px;
 }
 .headline h1{
-    font-family: 'Source Serif 4', sans-serif;
-    font-size: 60px;
+    font-family: 'Source Serif 4', sans-serif !important;
+    font-size: 60px !important;
+    text-align: left !important;
 }
 .headline h1:last-child{
     color: orange
@@ -92,13 +93,21 @@ section{
     color: orange;
 }
 .visionWraper{
-    margin-top: 30px;
+    margin-top: 50px;
+    justify-content: space-between;
 }
 .visionItms{
-    background: rgba(204, 245, 247, 0.322);
+    background: rgba(204, 245, 247, 0.418);
     width: 32%;
     padding: 40px 30px;
     border-radius: 30px;
+}
+
+.visionItms:nth-child(2){
+    background: rgba(189, 175, 166, 0.274);
+}
+.visionItms:nth-child(3){
+    background: rgba(250, 133, 60, 0.274);
 }
 .visionIcon{
 }
