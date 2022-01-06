@@ -126,3 +126,26 @@ section{
     font-family: arial;
     line-height: 27px;
 }
+
+/* developerLimit start */
+.developerLimit{}
+.limitWraper{
+    justify-content: space-between;
+    align-items: center;
+}
+.limitImg{
+    width: 35%;
+}
+.limitImg img{
+}
+.limitDscrpt{
+    width: 58%;
+}
+.limitDscrpt h1{
+    text-align: left;
+    font-size: 35px;
+}
+.limitDscrpt p{
+    width: 100%;
+}
+.limitDscrpt a{}
